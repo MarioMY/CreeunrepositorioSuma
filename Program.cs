@@ -11,7 +11,7 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             //Crear o declarar las variables a utilizar
-            int n1, n2, s;
+            int n1, n2, n3, s;
 
             //Preguntar el valor de un numero
             Console.Write("N1: ");
@@ -19,8 +19,11 @@ namespace ConsoleApp1
             //Preguntar el valor del segundo numero
             Console.Write("N2: ");
             n2 = Int32.Parse(Console.ReadLine());
+            //Preguntar el valor del tercer numero
+            Console.Write("N3: ");
+            n3 = Int32.Parse(Console.ReadLine());
             //Sumarlos
-            s = n1 + n2;
+            s = n1 + n2 + n3;
             //Mostrar el resultado
 
             Console.Write("Resultado "+s);
