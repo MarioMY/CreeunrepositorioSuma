@@ -23,7 +23,7 @@ namespace ConsoleApp1
             s = n1 + n2;
             //Mostrar el resultado
 
-            Console.Write("A suma es "+s);
+            Console.Write("Resultado "+s);
 
             Console.ReadKey();
         }
